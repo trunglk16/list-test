@@ -7,7 +7,6 @@ public class MyListTest {
         private int size = 0;
         private static final int DEFAULT_CAPACITY = 10;
         private Object elements[];
-
         public MyList() {
             elements = new Object[DEFAULT_CAPACITY];
         }
@@ -44,7 +43,6 @@ public class MyListTest {
         System.out.println("element 1: "+listInteger.get(1));
         System.out.println("element 2: "+listInteger.get(2));
 
-        //listInteger.get(6);
-        //System.out.println("element 6: "+listInteger.get(6));
+
     }
 }
